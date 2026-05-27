@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "itworks"
+version = "1.0.0"
+authors = [
+    { name = "Atheer M.", email = "teamleadertrue@gmail.com" },
+]
+description = "A simple file based bridge between Python and browser JavaScript"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ahmad170412/itworks"
+
+[tool.setuptools.packages.find]
+where = ["src"]
