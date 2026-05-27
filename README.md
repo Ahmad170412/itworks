@@ -2,6 +2,8 @@
 
 A ridiculously simple Python + Browser bridge using plain text files.
 
+## NOW AVAILABLE VIA pip install itworks OR pip3 install itworks
+
 itworks lets Python and JavaScript communicate without any complex:
 
 - servers
